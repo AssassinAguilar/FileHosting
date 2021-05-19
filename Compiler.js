@@ -1,3 +1,9 @@
+<!-- This is a Compiler File for compiling SCSS or SASS -->
+<!-- Credits :-
+         The compiling is by offical sass developers. { https://www.github.com/Sass }
+         This code is made by Madcoder of Sololearn { https://www.sololearn.com/Profile/17782587/?ref=app } and a bit edited by Assassin { Me }
+-->
+
 const $ = el => document.querySelector(el);
 
 const sassScript = document.createElement("script");
