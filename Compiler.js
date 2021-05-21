@@ -1,3 +1,9 @@
+// This is a Compiler File for compiling SCSS or SASS
+/* Credits :-
+       The compiling is by offical sass developers. { https://www.github.com/Sass }
+       This code is made by Madcoder of Sololearn { https://www.sololearn.com/Profile/17782587/?ref=app } and edited by Assassin { Me }
+*/
+
 const sassScript = document.createElement("script");
 sassScript.src = "https://cdnjs.cloudflare.com/ajax/libs/sass.js/0.9.12/sass.sync.min.js";
 
