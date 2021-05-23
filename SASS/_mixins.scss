@@ -1,0 +1,5 @@
+@mixin resp ($respVal, $respMax_Min: max, $respH_W: width) {
+    @media (#{$respMax_Min}-#{$respH_W}: #{$respVal} {
+        @content;
+    }
+}
