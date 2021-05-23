@@ -1,3 +1,6 @@
+// This is a compiling File for Compiling SASS or SCSS
+// Just Import this File and it will Convert all Internal and External SASS or SCSS Files in the Following Webpage to CSS
+
 const importScript = () => {
 
     let sassScript = document.createElement("script");
