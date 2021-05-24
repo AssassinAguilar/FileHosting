@@ -100,7 +100,7 @@ $fontWeigths: (
     user-select: none;
     outline: none;
     border: none;
-    color: setColor($white);
+    color: $white;
     font-family: "Montserrat", sans-serif;
     -webkit-tap-highlight-color: transparent;
     &::-webkit-scrollbar
