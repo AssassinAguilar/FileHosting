@@ -2,11 +2,9 @@
 // Just Import this File and it will Convert all Internal and External SASS or SCSS Files in the Following Webpage to CSS
 
 const importScript = () => {
-
     let sassScript = document.createElement("script");
     sassScript.src = "https://cdnjs.cloudflare.com/ajax/libs/sass.js/0.9.12/sass.sync.min.js";
     document.head.appendChild(sassScript);
-
 }
 
 importScript ();
