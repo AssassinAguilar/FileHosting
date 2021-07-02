@@ -1,5 +1,3 @@
-@use "sass:selector";
-
 // Variables
 
 $red: #f03d30;
@@ -58,12 +56,6 @@ $fontWeigths: (
     background-position: $position;
     background-size: $size;
     background-repeat: no-repeat;
-}
-
-@mixin unify-parent ($child) {
-    @at-root #{selector.unify(&, $child)} {
-        @content;
-    }
 }
 
 @mixin google-font ($family, $fontName, $fontAccent, $element...) {
