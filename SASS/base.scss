@@ -72,6 +72,8 @@ $fontWeigths: (
     }
 }
 
+@mixin transition { transition: all 0.3s ease-in-out }
+
 // Functions
 
 @function weight ($wName) {
@@ -115,9 +117,9 @@ $fontWeigths: (
             border-radius: 50px;
             background-color: $blue;
             &:hover
-            {
-                background-color: $red;
-            }
+            { background-color: $red }
         }
     }
 }
+
+html { scroll-behavior: smooth }
