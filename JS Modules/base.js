@@ -14,5 +14,4 @@ const searchBar = (elContainer, el, self, displayProperty) => {
     }
 }
 
-export default { $, $$, rand }
-export { searchBar }
+export { $, $$, rand, searchBar }
