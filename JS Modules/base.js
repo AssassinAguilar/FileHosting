@@ -1,6 +1,7 @@
 const $ = el => document.querySelector(el);
 const $$ = el => document.querySelectorAll(el);
 const rand = val => Math.floor(Math.random() * (val || 100));
+const handleSideNav = isOpened => isOpened ? $("#sidenav").classList.remove("show") : $("#sidenav").classList.add("show");
 const searchBar = (elContainer, el, self, displayProperty) => {
     let elementContainer = document.querySelector(elContainer);
     let element = elementContainer.querySelectorAll(el);
