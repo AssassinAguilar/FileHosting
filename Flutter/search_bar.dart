@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 typedef OnTap = void Function(int index);
 
-class AutoSearchInput extends StatefulWidget {
+class SearchBar extends StatefulWidget {
 
   final List<String> data;
   final int maxElementsToDisplay;
@@ -23,7 +23,7 @@ class AutoSearchInput extends StatefulWidget {
   final OnTap onItemTap;
   final Function onEditingComplete;
 
-  const AutoSearchInput({
+  const SearchBar({
     @required this.data,
     @required this.maxElementsToDisplay,
     @required this.onItemTap,
@@ -45,11 +45,11 @@ class AutoSearchInput extends StatefulWidget {
   }) : assert(data != null, maxElementsToDisplay != null);
 
   @override
-  _AutoSearchInputState createState() => _AutoSearchInputState();
+  _SearchBarState createState() => _SearchBarState();
 
 }
 
-class _AutoSearchInputState extends State<AutoSearchInput> {
+class _SearchBarState extends State<SearchBar> {
 
   List<String> results = [];
   bool isItemClicked = false;
