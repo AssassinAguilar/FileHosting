@@ -1,0 +1,9 @@
+@mixin deep { filter: brightness(1.3) saturate(1) contrast(1.8) sepia(0) hue-rotate(0) grayscale(0) opacity(1) blur(0) invert(0); }
+
+@mixin enhanced { filter: brightness(1.2) saturate(1.2) contrast(1.3) sepia(0.1) hue-rotate(0) grayscale(0) opacity(1) blur(0) invert(0); }
+
+@mixin old { filter: brightness(1.1) saturate(1) contrast(1) sepia(0) hue-rotate(0) grayscale(1) opacity(1) blur(0) invert(0); }
+
+@mixin b_w { filter: brightness(1.2) saturate(1.2) contrast(1.3) sepia(0.1) hue-rotate(0) grayscale(1) opacity(1) blur(0) invert(0); }
+
+@mixin concentrated { filter: brightness(1.1) saturate(1.9) contrast(1) sepia(0) hue-rotate(0) grayscale(0) opacity(1) blur(0) invert(0); }
