@@ -58,6 +58,8 @@ $fontWeigths: (
     background-repeat: no-repeat;
 }
 
+@mixin enhance { filter: brightness(1.2) saturate(1.2) contrast(1.3) sepia(0.1) hue-rotate(0) grayscale(0) opacity(1) blur(0) invert(0); }
+
 @mixin google-font ($family, $fontName, $fontAccent, $element...) {
     @import url("https://fonts.googleapis.com/css?family=#{$family}&display=swap");
     #{$element}
