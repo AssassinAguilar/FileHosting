@@ -14,5 +14,14 @@ const searchBar = (elContainer, el, self, displayProperty) => {
         }
     }
 }
+const copy = (val, isTag = false) => {
+    let inp = document.createElement("input");
+    document.body.appendChild(inp);
+    inp.value = isTag ? document.querySelector(val).innerText : val;
+    inp.select();
+    inp.setSelectionRange(0, 9999999999999);
+    document.execCommand("Copy");
+    inp.remove();
+}
 
-export { $, $$, rand, searchBar }
+export { $, $$, rand, searchBar, copy }
