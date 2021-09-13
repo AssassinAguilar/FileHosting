@@ -6,7 +6,7 @@ const searchBar = (elContainer, el, self, displayProperty) => {
     let elementContainer = document.querySelector(elContainer);
     let element = elementContainer.querySelectorAll(el);
     let value = self.value.toUpperCase();
-    for(i = 0; i < element.length; i++){
+    for(let i = 0; i < element.length; i++){
         if(element[i].textContent.toUpperCase().indexOf(value) > - 1){
             element[i].style.display = displayProperty || "block";
         } else {
@@ -24,4 +24,4 @@ const copy = (val, isTag = false) => {
     inp.remove();
 }
 
-export { $, $$, rand, searchBar, copy }
+export { $, $$, rand, handleSideNav, searchBar, copy }
