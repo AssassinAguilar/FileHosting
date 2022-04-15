@@ -20,7 +20,7 @@ const compileText = text => {
 
 const combineText = textFromLib => {
     let styleTag = document.createElement("style");
-    document.querySelectorAll("style[fetched='true'").forEach(tag => styleTag.innerHTML += "\n" + tag.innerHTML + "\n");
+    document.querySelectorAll("style[fetched='true']").forEach(tag => styleTag.innerHTML += "\n" + tag.innerHTML + "\n");
     styleTag.innerHTML += "\n" + document.querySelectorAll("style")[0].innerHTML + "\n";
     document.head.appendChild(styleTag);
     compileText (styleTag.innerHTML);
